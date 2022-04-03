@@ -1,0 +1,11 @@
+name: InfiniteJumpAndRun
+version: 1.0
+author: Vayion
+main: de.vayion.ijar.Main
+description: Jump & Run for Lobbies
+
+commands:
+  jump:
+  position:
+  test:
+  isInside:
