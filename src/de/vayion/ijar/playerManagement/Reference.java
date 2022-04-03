@@ -27,6 +27,9 @@ public class Reference extends Element {
 	
 	public Element removePlayer(Player player) {
 		if(this.player.equals(player)) {
+			if(activeJaR!=null) {
+				activeJaR.abort();
+			}
 			return next;
 		}
 		next = next.removePlayer(player);
